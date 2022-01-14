@@ -1,0 +1,19 @@
+name: DevTools
+version: 1.0
+main: com.tyrengard.devtools.DevTools
+api-version: 1.18
+load: POSTWORLD
+authors: [ hayashikin ]
+description: Developer utilities plugin
+website: devtools.tyrengard.com
+
+commands:
+  devtools:
+    description: DevTools commands
+    usage: /<command>
+    permission: devtools.user
+
+permissions:
+  devtools.user:
+    description: Has access to DevTools commands
+    default: op
